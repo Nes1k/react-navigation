@@ -23,6 +23,7 @@ const HeaderTitle = ({ style, ...rest }: Props) => (
     {...rest}
     style={[styles.title, style]}
     accessibilityTraits="header"
+    allowFontScaling={false}
   />
 );
 
